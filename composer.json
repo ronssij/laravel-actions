@@ -1,0 +1,30 @@
+{
+    "name": "ronssij/laravel-actions",
+    "description": "A simple action service for controllers.",
+    "keywords": [
+        "laravel action",
+        "laravel",
+        "action"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CJ Ronxel",
+            "email": "ronssij@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ronssij\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ronssij\\Commands\\MakeActionServiceProvider"
+            ]
+        }
+    },
+    "prefer-stable": true
+}
